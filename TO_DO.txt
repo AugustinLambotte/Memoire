@@ -1,0 +1,17 @@
+Meeting 26-10:
+    V Rename "frshwater flux" in "Net mass flux of sea ice melting (nmfSIm)"
+    V Verify if the CRYOSAT biweekly are averaged data or snapshot data?
+    V Compute the distance on the grid (is it 80km everywhere?)
+    V Consider a biweekly freshwater flux and not a daily to have a better use of the temporal grid data
+    V Are the trend significant?
+    V An increase of EKE and KE are observed near the Den Strait? Is it significant? Is the current more meandering?
+    - Ask Noe Pirlet about ERA5 2012 file
+    V Correlation between KE and EKE
+    V IMPORTANT: diagnostic if my fresh water flux is well computed. In year averaged, the net sea ice melt has to be positive
+      over all the Greenland sea.
+    - Compute the baroclinic component of the geostrophic current, it is this component which is modified by the sea ice melt.
+      So, I need the vertical profile of temperature and salinity and use the dynamical method.
+
+
+    - Problem with the mensual mean in the plot's function. End of month (31) should be count for the next month
+    - Difference between nmfsim computed as I did or with divergence? -> Done but verify the divergence method
