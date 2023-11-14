@@ -546,7 +546,7 @@ def plot():
     print(np.shape(ke_annual))
     print(np.shape(nmfsim_annual))
 
-    r_ke_nmfsim = stats.pearsonr(ke_annual,nmfsim_annual)[0]
+    """r_ke_nmfsim = stats.pearsonr(ke_annual,nmfsim_annual)[0]
     p_ke_nmfsim = stats.pearsonr(ke_annual,nmfsim_annual)[1]
 
     print(r_ke_nmfsim,p_ke_nmfsim)
@@ -593,8 +593,11 @@ def plot():
     plt.grid()
     plt.xlabel('year')
     plt.ylabel('%')
+    plt.show()"""
+    drift_magnitude = np.where((lat>=75)&(lat<=80.5),drift_magnitude,0)
+    plt.close()
+    plt.imshow(np.nanmean(drift_magnitude,axis = 0))
     plt.show()
-
     plt.title('Sea ice drift magnitude averaged over the area')
     plt.plot(np.linspace(2011,2020,len(drift_magnitude)),np.nanmean(drift_magnitude,axis = (1,2)))
     plt.grid()
@@ -623,4 +626,4 @@ def plot():
     plt.ylabel('J/kg')
     plt.show()
 
-map()
+plot()

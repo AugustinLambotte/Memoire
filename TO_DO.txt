@@ -5,7 +5,7 @@ Meeting 26-10:
     V Consider a biweekly freshwater flux and not a daily to have a better use of the temporal grid data
     V Are the trend significant?
     V An increase of EKE and KE are observed near the Den Strait? Is it significant? Is the current more meandering?
-    - Ask Noe Pirlet about ERA5 2012 file
+    V Ask Noe Pirlet about ERA5 2012 file
     V Correlation between KE and EKE
     V IMPORTANT: diagnostic if my fresh water flux is well computed. In year averaged, the net sea ice melt has to be positive
       over all the Greenland sea.
